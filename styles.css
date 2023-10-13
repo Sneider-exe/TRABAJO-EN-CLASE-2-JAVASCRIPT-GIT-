@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+input{
+    width: 250px; 
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px; 
+    font-size: 16px;
+}
+
+nav a {
+    color: white;
+    background-color: #ff00d0;
+    border: none;
+    margin: 10px 2px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+nav a:hover {
+    background-color: #00b9f7;
+}
+
+input{
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    color: #000000;
+    margin:20px;
+    border:0px;
+    padding:9px;
+}
+button{
+    background-color: #ff00d0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+.btt{
+    text-decoration: none;
+    background-color: #ff00d0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 2px; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ul {
+    margin: 2px;
+    border: 3px solid #ff00d0;
+    list-style-type: none;
+    padding: 0;
+}
+.cronometro {
+    margin: 10px;
+    padding: 50px;
+    border: 2px solid #ff00d0;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#display {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
